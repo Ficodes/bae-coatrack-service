@@ -1,0 +1,18 @@
+{
+    "name": "CoatRack Service",
+    "author": "fdelavega",
+    "version": "0.1",
+    "module": "ngsi_query.CoatRackService",
+    "media_types": [],
+    "formats": ["URL"],
+    "overrides": [],
+    "pull_accounting": true,
+    "form": {
+        "service_id": {
+            "type": "text",
+            "label": "Service ID",
+            "placeholder": "my-coatrack-service",
+            "mandatory": true
+        }
+    }
+}
